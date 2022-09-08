@@ -1,13 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /*
- * main - print exactly  "and that piece of art is useful"
+ * main - entry point
  *
- *  - Dora Korpar, 2015-10-19,
- *
- * write used to call out the phrase followed by new line
- *
- * Return: 0 when code is a success
+ * Return:Alqays 0 (Succes)s
  */
 int main(void)
 {
