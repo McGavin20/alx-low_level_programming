@@ -1,10 +1,13 @@
 #include <stdio.h>
+#include <unistd.h>
 /*
- * main - is the function that will print the phrase
+ * main - print the phrase "and that piece of art is useful"
  *
- * write used to call out the phrase
+ *  - Dora Korpar, 2015-10-19,
  *
- * return: 0 when code is a success
+ * write used to call out the phrase followed by new line
+ *
+ * Return: 0 when code is a success
  */
 int main(void)
 {
