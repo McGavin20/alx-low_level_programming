@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /*
- * main - entry point
+ * main - prints exactly "and that piece of art is useful" - Dora Korpar, 2015-10-19"
  *
- * Return:Alqays 0 (Succes)s
+ * Return:Always 0 (Success)
  */
 int main(void)
 {
