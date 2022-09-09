@@ -9,16 +9,19 @@ int main(void)
 	int x;
 	int y;
 
-	for (x = 10; x <= 19; x++)
+	for (y = 10; y <= 19; y++)
 	{
-		for (y = 10; y <= 19; y++)
-		{
-			putchar((x % 10) + '0');
-			putchar((y % 10) + '0');
-			if (x != 19 || y != 19)
+		for (x = 11; x <= 20; x++)
+		{	
+			if(x > y)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(y);
+				putchar(x);
+				if (y != 19 || x != 20)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
