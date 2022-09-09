@@ -16,7 +16,7 @@ int main(void)
 			putchar((j % 10) + '0');
 			if ( i == 01 || i == 10)
 			{
-				continue
+				continue;
 			}
 			if (i != 19 ||  j != 19)
 			{
