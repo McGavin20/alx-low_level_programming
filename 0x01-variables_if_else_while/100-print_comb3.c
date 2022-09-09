@@ -14,6 +14,10 @@ int main(void)
 		{
 			putchar((i % 10) + '0');
 			putchar((j % 10) + '0');
+			if ( i = 0 || i = 10)
+			{
+				continue
+			}
 			if (i != 19 ||  j != 19)
 			{
 				putchar(',');
