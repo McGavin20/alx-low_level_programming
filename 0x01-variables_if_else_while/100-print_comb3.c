@@ -14,16 +14,15 @@ int main(void)
 		{
 			putchar((i % 10) + '0');
 			putchar((j % 10) + '0');
-			if ( i == 01 || i == 10)
-			{
-				continue;
-			}
 			if (i != 19 ||  j != 19)
 			{
 				putchar(',');
 				putchar(' ');
 			}
-
+			if (i == 01 || j == 01 || j == 10 || i == 10)
+			{
+				continue;
+			}
 		}
 	}
 	putchar('\n');
