@@ -6,18 +6,17 @@
 int main(void)
 {
 
-	int x;
-	int y;
+	int x, y;
 
-	for (y = 10; y <= 19; y++)
+	for (y = 10; y <= 18; y++)
 	{
-		for (x = 11; x <= 20; x++)
+		for (x = 11; x <= 19; x++)
 		{	
-			if(x > y)
+			if (x > y)
 			{
 				putchar(y);
 				putchar(x);
-				if (y != 19 || x != 20)
+				if (y != 18 || x != 19)
 				{
 					putchar(',');
 					putchar(' ');
