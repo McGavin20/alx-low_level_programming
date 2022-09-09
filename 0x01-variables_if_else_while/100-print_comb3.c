@@ -9,7 +9,7 @@ int main(void)
 	int x;
 	int y;
 
-	for (x = 10; x <= 19: x++)
+	for (x = 10; x <= 19; x++)
 	{
 		for (y = 10; y <= 19; y++)
 		{
