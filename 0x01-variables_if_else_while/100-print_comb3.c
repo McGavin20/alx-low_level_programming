@@ -5,23 +5,21 @@
  */
 int main(void)
 {
+	int i;
+	int j;
 
-	int x, y;
-
-	for (y = 10; y <= 18; y++)
+	for (i = 10; i <= 19; i++)
 	{
-		for (x = 11; x <= 19; x++)
-		{	
-			if (x > y)
+		for (j = 10; j <= 19; j++)
+		{
+			putchar((i % 10) + '0');
+			putchar((j % 10) + '0');
+			if (i != 19 ||  j != 19)
 			{
-				putchar(y);
-				putchar(x);
-				if (y != 18 || x != 19)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
+
 		}
 	}
 	putchar('\n');
