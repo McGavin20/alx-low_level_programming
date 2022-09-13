@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - prints _putchar function
+ * main - entry point
  *
  * RETURN: 0 Always (Success)
  */
