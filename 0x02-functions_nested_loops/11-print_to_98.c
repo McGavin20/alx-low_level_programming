@@ -1,6 +1,6 @@
 #include "main.h"
 #include<stdio.h>
-/** 
+/**
  * print_to_98 - prints from 0 to 98 natural numbers
  * @n: The number to begin counting at
  */
