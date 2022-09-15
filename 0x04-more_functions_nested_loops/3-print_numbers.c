@@ -3,6 +3,7 @@
 /**
  * print_number the numbers from 0-9
  */
+
 void print_numbers(void)
 {
 	int i;
