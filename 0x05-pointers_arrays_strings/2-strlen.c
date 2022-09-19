@@ -2,8 +2,7 @@
 /**
  * _strlen - returns length of a string
  * @s: string variable
- * 
- * Return: len
+ * Return: x
  */
 int _strlen(char *s)
 {
