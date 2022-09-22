@@ -3,11 +3,18 @@
  * _strcat - concatenates two strings
  * @dest: destination
  * @src: source
- * Return: 0 Always
+ * Retur dest of string
  */
 char *_strcat(char *dest, char *src)
 {
+	char index[];
+
+	if (index != '\0')
+	{
+		index++;
+	}
+
 	_strcat(dest, src);
 
-	return (0);
+	return (dest);
 }
