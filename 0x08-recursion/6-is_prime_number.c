@@ -13,7 +13,7 @@ int prime_number(int p, int f)
 	else if (f > p / 2)
 		return (1);
 	else
-		return (prime_check(f + 1, p));
+		return (prime_number(f + 1, p));
 }
 
 /**
@@ -26,5 +26,5 @@ int is_prime_number(int n)
 {
 	if (n == 2)
 		return (1);
-	return (prime_check(2, n));
+	return (prime_number(2, n));
 }
