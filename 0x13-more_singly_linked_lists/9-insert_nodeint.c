@@ -2,6 +2,7 @@
 /**
  * insert_nodeint_at_index - adds a new node to a linked list
  *                           at a given position
+ * main - the main function
  * @head : pointer to the head of the list
  * @idx  : index of the list where the new node will be added
  *         (indices start at 0)
